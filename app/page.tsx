@@ -7,6 +7,7 @@ import "./../app/app.css";
 import { Amplify } from "aws-amplify";
 import outputs from "@/amplify_outputs.json";
 import "@aws-amplify/ui-react/styles.css";
+import "./amplify-theme.css";
 import { Authenticator } from '@aws-amplify/ui-react';
 import { StorageBrowser } from '../components/StorageBrowser';
 
